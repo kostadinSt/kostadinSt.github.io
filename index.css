@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;;
+    color: 	#696969;
+}
+
+.content{
+    width: 30%;
+    float: left;
+    padding: px;
+    margin-bottom: 7px;
+    background:#fcfcfc;
+}
+.container-1 {
+    width: 69%;
+    float: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    background:#fcfcfc;
+}
+
+.container{
+    max-width: 100%;
+
+}
+
+.container-1,  .content{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+@media (max-width: 600px) {
+    .container-1, .content {
+        width: 100%;
+    }
+}
+.display-content > * {
+    margin: 25px;
+}
+* img{
+vertical-align:middle;
+margin-right:10px;
+}
+.name > *{
+    margin: 25px;
+}
+.name > h4{
+color:#007acc;
+font-size: 130%;
+}
+.name > h3{
+margin-left:40px;
+}
+.skills, section {
+           border-radius: 50px;
+            height:25px;
+            max-width: 100%;
+}
+section{
+   background:#4169E1;
+   color:#fff;
+   text-align: center;
+   padding: 3px;
+   width: 90%;
+}
+.skills {
+   background:#b4b4b4;
+   margin-bottom: 24px;
+   max-width: 100%;
+}
+
+.skills:before, skills:after{
+   content:"";
+   display: block;
+}
+.skills{
+clear: both;
+}
+/* for javascript*/
+
+.skill, sections {
+    border-radius: 50px;
+    height:25px;
+    max-width: 100%;
+
+}
+sections{
+   background:#4169E1;
+   color:#fff;
+   text-align: center;
+   padding: 3px;
+   width: 30%;
+   float:left;
+}
+.skill{
+       background:#b4b4b4;
+       margin-bottom: 24px;
+       max-width: 100%;
+}
+.skill1, section1 {
+    border-radius: 50px;
+    height:25px;
+    max-width: 100%;
+
+}
+section1{
+    background:#4169E1;
+    color:#fff;
+    text-align: center;
+    padding: 3px;
+    width: 60%;
+    float:left;
+}
+.skill1 {
+    background: #b4b4b4;
+    margin-bottom: 24px;
+    max-width: 100%;
+}
